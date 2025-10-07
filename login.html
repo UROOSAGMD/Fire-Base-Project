@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <div class="box1">
+    <h1 class="head">Student Portal</h1>
+    <h3 class="heading">Login Form</h3>
+
+    <label>Email:
+      <input type="email" id="lemail" class="input" placeholder="Enter your email">
+    </label><br><br>
+
+    <label>Password:
+      <input type="password" id="lpassword" class="input" placeholder="Enter your password">
+    </label><br><br>
+
+    <button id="loginBtn" class="btn">Login</button>
+    <p>Don't have an account? <a href="index.html">Signup here</a></p>
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
+
+

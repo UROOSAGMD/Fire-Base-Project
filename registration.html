@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration - Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <div class="box">
+    <h2 class="head">Student Registration Form</h2>
+
+    <label>Full Name:
+      <input type="text" id="fullName">
+    </label><br><br>
+
+    <label>Class Timings:
+      <input type="text" id="classTimings">
+    </label><br><br>
+
+    <label>Campus:
+      <input type="text" id="campus">
+    </label><br><br>
+
+    <label>Teacher:
+      <input type="text" id="teacher">
+    </label><br><br>
+
+    <label>Course:
+      <input type="text" id="course">
+    </label><br><br>
+
+    <div class="btn-group"> 
+       <button id="saveBtn">Save</button><br><br>
+       <button id="logoutBtn">Logout</button>
+    </div>
+</div>
+
+  <!-- Container for Student Detail Box -->
+  <div id="studentDetailContainer" class="student-detail-container"></div>
+  
+ <script type="module" src="firebase.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
